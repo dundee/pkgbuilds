@@ -5,7 +5,8 @@ Things I maintain, checked into git as subtrees for easier management or pull re
 ## Update package
 
 ```
-./update.sh package_name
+./pull.sh package_name
+./push.sh package_name
 ```
 
 ## Setup the repo (install git hooks)
