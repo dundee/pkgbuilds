@@ -1,0 +1,33 @@
+pkgbase = python-git
+	pkgdesc = Next generation of the python high-level scripting language
+	pkgver = 3.11.0a0.r112016.b04dfbbe4bd
+	pkgrel = 1
+	url = https://www.python.org/
+	arch = x86_64
+	license = custom
+	checkdepends = ttf-font
+	makedepends = tk
+	makedepends = sqlite
+	makedepends = valgrind
+	makedepends = bluez-libs
+	makedepends = mpdecimal
+	makedepends = xz
+	makedepends = git
+	makedepends = llvm
+	makedepends = gdb
+	makedepends = xorg-server-xvfb
+	depends = expat
+	depends = bzip2
+	depends = gdbm
+	depends = openssl
+	depends = libffi
+	depends = zlib
+	depends = libnsl
+	source = git+https://github.com/python/cpython#branch=main
+	sha512sums = SKIP
+
+pkgname = python-git
+	optdepends = sqlite
+	optdepends = mpdecimal: for decimal
+	optdepends = xz: for lzma
+	optdepends = tk: for tkinter
